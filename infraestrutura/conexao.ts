@@ -1,6 +1,6 @@
 import { ModuleKind } from "typescript";
 
-const mysql = require('mysql')
+const mysql = require('mysql2')
 
 const conexao = mysql.createConnection({
     host: 'localhost',
