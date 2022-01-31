@@ -1,5 +1,3 @@
-import { ModuleKind } from "typescript";
-
 const mysql = require('mysql2')
 
 const conexao = mysql.createConnection({
@@ -11,3 +9,4 @@ const conexao = mysql.createConnection({
 });
 
 module.exports = conexao
+export{}
